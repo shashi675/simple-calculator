@@ -123,5 +123,9 @@ function calculate() {
     else if(lastOperator === 4 && number !==0){
         result /= number;
     }
+    const decPart = result - Math.floor(result);
+    if(decPart!==0)
+        result = parseFloat(result.toFixed(5));
+
     number = 0;
 }
