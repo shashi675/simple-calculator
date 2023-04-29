@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: rgb(245, 203, 237);
+     /* background: url(./images/bg.jfif); */
+     /* background-repeat: no-repeat;
+     background-size: cover; */
+}
+
+
+.heading {
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    margin: 3% auto;
+    border: 3px solid black;
+    width: 20rem;
+    padding-inline: auto;
+    background-color: beige;
+}
+
+#result{
+    height: 3.5rem;
+    width: 90%;
+    border: 3px solid black;
+    margin: 5px auto;
+    font-size: 3rem;
+    text-align: right;
+    padding-inline: 3px;
+    background-color: white;
+    overflow: hidden;
+}
+
+button{
+    margin: 10px 5px;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-weight:bold;
+}
+
+table {
+    padding-inline: 1rem;
+}
+
+#equal{
+    width: 95%;
+}
